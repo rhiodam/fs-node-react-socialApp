@@ -7,9 +7,15 @@ const morgan = require('morgan');
 // const postRoutes = require('./routes/post');
 const {getPosts} = require('./routes/post');
 
+// Make custom middleware
+// const myOwnMiddleware = (req,res,next)=>{
+//     console.log("Middleware applied.");
+//     next();
+// };
 
 // Middleware
-app.use()
+app.use(morgan("dev"));
+// app.use(myOwnMiddleware);
 
 
 // app.get("/posts" , postRoutes.getPosts);
