@@ -9,3 +9,88 @@ js
 + eslint@5.16.0
 added 117 packages from 70 contributors in 266.38s
 
+
+
+D:\Users\rhiodam\fullstack\node react\fs-node-react-socialApp\node-basic>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (basic) node-basic
+version: (1.0.0)
+description:
+entry point: (app.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to D:\Users\rhiodam\fullstack\node react\fs-node-react-socialApp\node-basi
+c\package.json:
+
+{
+  "name": "node-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+
+
+
+
+D:\Users\rhiodam\fullstack\node react\fs-node-react-socialApp\node-basic>npm i nodemon
+
+> nodemon@1.18.10 postinstall D:\Users\rhiodam\fullstack\node react\fs-node-react-socialA
+pp\node-basic\node_modules\nodemon
+> node bin/postinstall || exit 0
+
+Love nodemon? You can now support the project via the open collective:
+ > https://opencollective.com/nodemon/donate
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN node-basic@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wa
+nted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ nodemon@1.18.10
+added 223 packages from 129 contributors and audited 2236 packages in 230.664s
+found 0 vulnerabilities
+
+
+"F:\Program Files\JetBrains\WebStorm 2018.3.5\bin\runnerw64.exe" "C:\Program Files\nodejs\node.exe" "C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js" run dev --scripts-prepend-node-path=auto
+
+> node-basic@1.0.0 dev D:\Users\rhiodam\fullstack\node react\fs-node-react-socialApp\node-basic
+> nodemon app.js
+
+[nodemon] 1.18.10
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node app.js`
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+
+
+
+
+
+
+
