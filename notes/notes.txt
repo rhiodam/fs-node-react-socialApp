@@ -90,6 +90,94 @@ found 0 vulnerabilities
 
 
 
+D:\Users\rhiodam\fullstack\node react\fs-node-react-socialApp\node-basic>npm i express
+npm WARN node-basic@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wa
+nted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ express@4.16.4
+added 48 packages from 35 contributors and audited 2357 packages in 154.679s
+found 0 vulnerabilities
+
+
+
+
+
+s\rhiodam\fullstack\node react\fs-node-react-socialApp\node-basic>eslint --init
+? How would you like to use ESLint? To check syntax, find problems, and enforce code styl
+
+e
+? What type of modules does your project use? CommonJS (require/exports)
+? Which framework does your project use? None of these
+? Where does your code run? (Press <space> to select, <a> to toggle all, <i> to invert se
+? Where does your code run? (Press <space> to select, <a> to toggle all, <i> to invert se
+? Where does your code run? (Press <space> to select, <a> to toggle all, <i> to invert se
+
+lection)Browser
+? How would you like to define a style for your project? Use a popular style guide
+? Which style guide do you want to follow? Standard (https://github.com/standard/standard
+
+)
+? What format do you want your config file to be in? JavaScript
+Checking peerDependencies of eslint-config-standard@latest
+Local ESLint installation not found.
+The config that you've selected requires the following dependencies:
+
+eslint-config-standard@latest eslint@>=5.0.0 eslint-plugin-import@>=2.13.0 eslint-plugin-
+node@>=7.0.0 eslint-plugin-promise@>=4.0.0 eslint-plugin-standard@>=4.0.0
+? Would you like to install them now with npm? Yes
+Installing eslint-config-standard@latest, eslint@>=5.0.0, eslint-plugin-import@>=2.13.0,
+eslint-plugin-node@>=7.0.0, eslint-plugin-promise@>=4.0.0, eslint-plugin-standard@>=4.0.0
+
+[            ......] \ finalize:mkdirp: sillll finalize D:\Users\rhiodam\fullstack\node r[            ......] \ finalize:mkdirp: sill finalize D:\Users\rhiodam\fullstack\node rea
+[            ......] \ finalize:mkdirp: sill finalize D:\Users\rhiodam\fullstack\node rea
+npm WARN node-basic@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wa
+nted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ eslint-plugin-promise@4.1.1
++ eslint-plugin-standard@4.0.0
++ eslint-plugin-node@8.0.1
++ eslint-config-standard@12.0.0
++ eslint@5.16.0
++ eslint-plugin-import@2.16.0
+added 131 packages from 88 contributors and audited 2619 packages in 295.877s
+found 0 vulnerabilities
+
+An error occurred while generating your JavaScript config file. A config file was still g
+enerated, but the config file itself may not follow your linting rules.
+Error: Cannot find module 'eslint-config-standard'
+Referenced from:
+Error: An error occurred while generating your JavaScript config file. A config file was
+still generated, but the config file itself may not follow your linting rules.
+Error: Cannot find module 'eslint-config-standard'
+Referenced from:
+    at ModuleResolver.resolve (C:\Users\Sickware\AppData\Roaming\nvm\v10.15.0\node_module
+s\eslint\lib\util\module-resolver.js:72:19)
+    at resolve (C:\Users\Sickware\AppData\Roaming\nvm\v10.15.0\node_modules\eslint\lib\co
+nfig\config-file.js:507:28)
+    at load (C:\Users\Sickware\AppData\Roaming\nvm\v10.15.0\node_modules\eslint\lib\confi
+g\config-file.js:579:26)
+    at configExtends.reduceRight (C:\Users\Sickware\AppData\Roaming\nvm\v10.15.0\node_mod
+ules\eslint\lib\config\config-file.js:453:36)
+    at Array.reduceRight (<anonymous>)
+    at applyExtends (C:\Users\Sickware\AppData\Roaming\nvm\v10.15.0\node_modules\eslint\l
+ib\config\config-file.js:431:26)
+    at Object.loadObject (C:\Users\Sickware\AppData\Roaming\nvm\v10.15.0\node_modules\esl
+int\lib\config\config-file.js:566:35)
+    at new Config (C:\Users\Sickware\AppData\Roaming\nvm\v10.15.0\node_modules\eslint\lib
+\config.js:85:46)
+    at new CLIEngine (C:\Users\Sickware\AppData\Roaming\nvm\v10.15.0\node_modules\eslint\
+lib\cli-engine.js:466:23)
+    at writeJSConfigFile (C:\Users\Sickware\AppData\Roaming\nvm\v10.15.0\node_modules\esl
+int\lib\config\config-file.js:295:24)
+
+
+
+
+
 
 
 
