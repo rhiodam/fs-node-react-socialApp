@@ -18,7 +18,7 @@ const http = require('http');
 
 
 const server = http.createServer((req,res)=>{
-    res.end("Hello world");
+    res.end("Hello world updated");
     // console.log("request coming..." , req)
 })
 
