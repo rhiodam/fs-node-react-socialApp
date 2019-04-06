@@ -1,0 +1,11 @@
+
+
+
+D:\Users\rhiodam\fullstack\node react\fs-node-react-socialApp>npm install -g eslint
+[            ......] / refresh-package-json:inherits: sill refresh-package-json C:\Users\
+[            ......] / refresh-package-json:inherits: sill refresh-package-json C:\Users\
+C:\Program Files\nodejs\eslint -> C:\Program Files\nodejs\node_modules\eslint\bin\eslint.
+js
++ eslint@5.16.0
+added 117 packages from 70 contributors in 266.38s
+
