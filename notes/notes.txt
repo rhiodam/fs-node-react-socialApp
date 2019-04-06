@@ -175,6 +175,19 @@ lib\cli-engine.js:466:23)
 int\lib\config\config-file.js:295:24)
 
 
+-
+
+16 async
+
+console:
+
+[nodemon] starting `node app.js`
+Node js async process
+
+AAAA
+
+
+
 
 
 

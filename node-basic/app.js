@@ -25,10 +25,28 @@
 // node file system
 const fs = require('fs');
 
-const fileName = "target.txt"
-fs.watch(fileName , ()=>{
-    console.log('File has changed..')
+const fileName = "target.txt";
+
+// fs.watch(fileName , ()=>{
+//     console.log('File has changed..')
+// })
+
+
+// this operation needs time to complete and handled by callback
+fs.readFile(fileName , (err , data) =>{
+    if (err){
+        // console.log(err)
+        errorHandling(err)
+    }
+    // console.log(data.toString())
+    dataHandling(data)
 })
+
+const errorHandling = (err) => console.log(err);
+const dataHandling = (data) => console.log(data.toString());
+
+console.log('Node js async process')
+
 
 // const express = require('express');
 // const app = express();
