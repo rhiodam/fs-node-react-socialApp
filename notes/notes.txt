@@ -188,6 +188,14 @@ AAAA
 
 
 
+D:\Users\rhiodam\fullstack\node react\fs-node-react-socialApp\node-api>npm i express
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN node-api@1.0.0 No description
+npm WARN node-api@1.0.0 No repository field.
+
++ express@4.16.4
+added 48 packages from 36 contributors and audited 121 packages in 85.554s
+found 0 vulnerabilities
 
 
 
