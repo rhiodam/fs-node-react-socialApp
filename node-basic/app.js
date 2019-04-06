@@ -22,16 +22,23 @@
 //     // console.log("request coming..." , req)
 // })
 
+// node file system
+const fs = require('fs');
 
-const express = require('express');
-const app = express();
+const fileName = "target.txt"
+fs.watch(fileName , ()=>{
+    console.log('File has changed..')
+})
 
-app.get("/" , (req,res)=>{
-    res.end("Hello world updated from express...");
-    // console.log("request coming..." , req)
-});
-
-app.listen(3000);
+// const express = require('express');
+// const app = express();
+//
+// app.get("/" , (req,res)=>{
+//     res.end("Hello world updated from express...");
+//     // console.log("request coming..." , req)
+// });
+//
+// app.listen(3000);
 
 
 
